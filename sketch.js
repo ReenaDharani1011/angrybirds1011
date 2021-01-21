@@ -81,7 +81,9 @@ function draw(){
 
     platform.display();
     //log6.display();
-    slingshot.display();    
+    slingshot.display(); 
+    pig1.score();
+    pig3.score();
 }
 
 function mouseDragged(){
